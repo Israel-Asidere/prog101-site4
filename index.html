@@ -1,0 +1,536 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>☼ Venus Mall </title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<style>
+		.firstNav a {
+			float: right;
+			padding: 15px;
+			font-size: 0.82em;
+			list-style-type: none;
+			color: white;
+			text-decoration: none;
+		}
+
+		.secondNav a {
+			float: right;
+			padding: 10px;
+			font-size: 0.82em;
+			text-emphasis: pad;
+			list-style-type: none;
+			color: black;
+			text-decoration: none;
+		}
+
+		.fText {
+			float: left;
+			padding-top: 3%;
+			padding-left: 3%;
+		}
+
+		.fButton {
+			float: right;
+			padding-top: 35%;
+			padding-right: 3%;
+		}
+
+		.sun-sign {
+			color: aqua;
+		}
+
+		.firstNav {
+			overflow: hidden;
+			padding-right: 100px;
+		}
+
+		.secondNav {
+			overflow: hidden;
+			padding-right: 100px;
+			background-color: wheat;
+		}
+
+		.navBar {
+			background-color: black;
+			overflow: hidden;
+		}
+
+		.logoN {
+			float: left;
+		}
+
+		.logoN a {
+			font-family: Broadway;
+			font-size: 16px;
+			padding-left: 170px;
+		}
+
+		.userImage {
+			height: 23px;
+			width: 23px;
+			border-radius: 50%;
+		}
+
+		body {
+			background-image: url("images/IMG_20180630_180601.JPG");
+			background-repeat: repeat;
+			background-size: auto;
+
+		}
+
+		#fire-icon {
+			color: #fd3333;
+		}
+
+		.appIntro p {
+			font-family: Bahnschrift Condensed;
+			font-size: 6em;
+			color: white;
+		}
+
+		.fButton button {
+			background-color: white;
+			color: black;
+			border: 2px solid #4e38c9;
+			border-radius: 12px;
+			padding: 14px 40px;
+		}
+
+		.productInfo h3 {
+			font-family: Bahnschrift Condensed;
+			font-size: 3em;
+			background-color: rgb(199, 194, 194);
+			opacity: 4;
+			padding-left: 42%;
+			padding-top: 5px;
+			width: 100%
+		}
+
+		.productInfo1 h3 {
+			font-family: Bahnschrift Condensed;
+			font-size: 3em;
+			background-color: rgb(199, 194, 194);
+			opacity: 4;
+			padding-left: 42%;
+			padding-top: 5px;
+			width: 100%
+		}
+
+		.productInfo2 h3 {
+			font-family: Bahnschrift Condensed;
+			font-size: 3em;
+			background-color: rgb(199, 194, 194);
+			opacity: 4;
+			padding-left: 45%;
+			padding-top: 5px;
+			width: 100%
+		}
+
+		.productInfo3 h3 {
+			font-family: Bahnschrift Condensed;
+			font-size: 3em;
+			background-color: rgb(199, 194, 194);
+			opacity: 4;
+			padding-left: 45%;
+			padding-top: 5px;
+			width: 100%
+		}
+
+		.productInfo1 {
+			padding-top: 18%;
+		}
+
+		.productInfo2 {
+			padding-top: 20%;
+		}
+
+		.productInfo3 {
+			padding-top: 25%;
+		}
+
+		.productInfo {
+			padding-top: 39%;
+		}
+
+		.productInfo1 p {
+			color: wheat;
+		}
+
+		.productInfo p {
+			color: wheat;
+		}
+
+		.productInfo1 a {
+			text-decoration: none;
+		}
+
+		.info {
+			font-family: Jokerman;
+		}
+
+		.products {
+			height: 180px;
+			width: 180px;
+			padding: 0px;
+		}
+
+		#product-pics {
+			text-justify: auto;
+		}
+
+		#product-pics p {
+			padding-top: 1px;
+		}
+
+		.product-name {
+			left: 10px;
+		}
+
+		.image-about-us {
+			height: 300px;
+			width: 350px;
+			border-radius: 50%;
+			padding-top: 4%;
+			padding-left: 10%;
+		}
+
+		#product-aboutus {
+			font-family: Bahnschrift Condensed;
+			font-size: 1.2em;
+			background-color: rgb(199, 194, 194);
+		}
+
+		#product-aboutus-info {
+			font-family: Bahnschrift Condensed;
+			font-size: 1.2em;
+			background-color: rgb(199, 194, 194);
+
+		}
+
+
+		.about-us-name {
+			padding-left: 60%;
+			font-size: 2em;
+		}
+
+		input[type=text],
+		select,
+		textarea {
+			width: 100%;
+			padding: 7px;
+			border: 2px solid wheat;
+			border-radius: 3px;
+			resize: vertical;
+		}
+
+		label {
+			padding: 6px 6px 6px 0;
+		}
+
+		input[type=submit]:hover {
+			border: 2px solid wheat;
+			padding: 5px 10px;
+
+		}
+
+		.col-25 {
+			float: left;
+			width: 25%;
+			margin-top: 6px;
+		}
+
+		.col-25 {
+			float: left;
+			width: 75%;
+			margin-top: 6px;
+		}
+
+		.row:after {
+			display: table;
+			content: "";
+			clear: both;
+		}
+
+		input[type=submit] {
+			color: wheat;
+			background-color: black;
+			border: none;
+			border-radius: 3px;
+			padding: 5px 10px;
+
+		}
+
+		.special {
+			width: 100%;
+			padding: 7px;
+			border: 2px solid wheat;
+			border-radius: 3px;
+		}
+
+		footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: rgb(250, 250, 250);
+			text-align: center;
+		}
+
+		.container {
+			padding-bottom: 43px;
+		}
+
+		footer li {
+			display: inline;
+			margin-right: 30px;
+		}
+
+		footer img {
+			padding-top: 3px;
+			width: 20px;
+
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="navBar">
+		<div class="firstNav">
+			<div class="logoN">
+				<a href="index.html">
+					<i class="sun-sign">☼</i> &emsp; Venus Mall</a>
+			</div>
+			<a href="#">
+				<img src="images/IMG_2806.JPG" class="userImage" title="username"> <strong>Israel Asidere</strong>
+
+			</a>
+			<a href="#">HOT PRODUCTS <i class="glyphicon glyphicon-fire" id="fire-icon"></i></a>
+			<a href="index.html">HOME</a>
+		</div>
+		<div class="secondNav">
+			<div class="logoN">
+				<a href="#">
+					&emsp; Product Categories</a>
+			</div>
+			<a href="#">FASHION</a>
+			<a href="#">ELECTRONICS</a>
+			<a href="#">PHONES & TABLETS </a>
+			<a href="#">COMPUTERS & ACESSORIES</a>
+		</div>
+	</div>
+	<div class="site-content">
+		<div class="appIntro">
+			<span class="fText">
+				<p>WELCOME TO VENUS MALL </p>
+			</span>
+			<span class="fButton">
+				<button>BLACK FRIDAY</button>
+				<button>ABOUT US</button>
+				<button>CONTACT</button>
+			</span>
+		</div>
+		<div class="productInfo">
+			<h3>HOT PRODUCTS <i class="glyphicon glyphicon-fire" id="fire-icon"></i></h3>
+			<div class="col-md-12" id="product-pics" style="clear: inherit">
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/adidas slide.jpg" class="products">
+						<p class="info">ADIDAS ADILETTE SLIDES</p>
+						<p class="price">₦15,500</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/xbox.jpg" class="products">
+						<p class="info">X BOX ONE CONSOLE</p>
+						<p class="price">₦350,000</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod2.html">
+						<img src="images/iphone-11-64gb-.jpeg" class="products">
+						<p class="info">IPHONE 11 (BLACK) </p>
+						<p class="price">₦320,000</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/addidas shirt.jpg" class="products">
+						<p class="info">ADIDAS SWEATSHIRT</p>
+						<p class="price">₦7,800</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/benballer_5___B4DBnGxFLeO___.jpg" class="products">
+						<p class="info">18K GOLD CHAIN</p>
+						<p class="price">95,000</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/benballer_9___B4DBnGxFLeO___.jpg" class="products">
+						<p class="info">BEN BALLER INSPIRED CHAIN</p>
+						<p class="price">₦530,000</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="productInfo1">
+			<h3>BLACK FRIDAY <i class="glyphicon glyphicon-flash" id="fire-icon"></i></h3>
+			<div class="col-md-12" id="product-pics" style="clear: inherit">
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/adidas slide.jpg" class="products">
+						<p class="info">ADIDAS ADILETTE SLIDES</p>
+						<p class="price"><s>₦15,500</s> ₦10,500</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/mschf-jesus-shoes.jpg" class="products">
+						<p class="info">NIKE JESUS SHOES</p>
+						<p class="price"><s>₦35,000</s> ₦30,000</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod2.html">
+						<img src="images/iphone-11-64gb-.jpeg" class="products">
+						<p class="info">IPHONE 11 (BLACK) </p>
+						<p class="price"><s>₦320,000</s> ₦279,000</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/addidas shirt.jpg" class="products">
+						<p class="info">ADIDAS SWEATSHIRT</p>
+						<p class="price"><s>₦7,800</s> ₦3,800</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/benballer_5___B4DBnGxFLeO___.jpg" class="products">
+						<p class="info">18K GOLD CHAIN</p>
+						<p class="price"><s> ₦95,000</s> ₦50,000</p>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="prod.html">
+						<img src="images/benballer_9___B4DBnGxFLeO___.jpg" class="products">
+						<p class="info">BEN BALLER INSPIRED CHAIN</p>
+						<p class="price"><s>₦530,000</s> ₦450,000</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="productInfo2">
+			<h3>ABOUT US</h3>
+			<div class="col-md-12" id="product-aboutus" style="clear: inherit">
+				<div class="col-md-6">
+					<h3>Who We Are</h3>
+					<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+						deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+						provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+						dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+						soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere
+						possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et
+						aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et
+						molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+						voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+				</div>
+				<div class="col-md-6">
+					<img src="images/Spongebob_Squarepants_wallpaper_017.jpg" class="image-about-us">
+					<p class="about-us-name">Israel Asidere</p>
+				</div>
+			</div>
+		</div>
+		<div class="productInfo3">
+			<h3>GET IN TOUCH <i class="glyphicon glyphicon-phone" id="phone-icon"></i></h3>
+			<div class="col-md-12" id="product-aboutus-info" style="clear: inherit">
+				<div class="container">
+					<form>
+						<div class="row">
+							<div class="col-25">
+								<label for="name">Full Name</label>
+							</div>
+							<div class="col-75">
+								<input type="text" placeholder="Enter Your Name..." id="name" name="name">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="email">Email</label>
+							</div>
+							<div class="col-75">
+								<input type="text" placeholder="Enter Your Email..." id="email" name="email">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="phone-no">Phone Number</label>
+							</div>
+							<div class="col-75">
+								<input type="text" placeholder="Enter Your Phone Number..." id="phone-no"
+									name="phone-no">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="address">Address<label>
+							</div>
+							<div class="col-75">
+								<select id="address" name="address">
+									<option value="ABUAD">ABUAD</option>
+									<option value="FUTA">FUTA</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="mesage">Leave us a Message</label>
+							</div>
+							<div class="col-75">
+								<input type="text" placeholder="Write Something...." id="message" name="mesage"
+									style="height: 100px;" class="special">
+							</div>
+						</div>
+						<div class="row">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<ul style="list-style-type: none;">
+			<li>
+				<a href="">
+					<img src="images/facebook.png">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="images/twitter.png">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="images/instagram.jpeg">
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
